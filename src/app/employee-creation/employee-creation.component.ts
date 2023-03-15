@@ -7,12 +7,7 @@ import { EmployeeService } from '../employee.service';
   templateUrl: './employee-creation.component.html',
   styleUrls: ['./employee-creation.component.css']
 })
-/*export class EmployeeCreationComponent {
-   name!: string;
-   createEmployee() {
-    // your implementation here
-  }
-}*/
+
 export class EmployeeCreationComponent implements OnInit {
   id!: string;
   name!: string;
